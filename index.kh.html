@@ -1,0 +1,1029 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A beautiful celebration of Hafeeza, a Hafizah of the Holy Quran.">
+<title>A Special Page Of Brighter of Her Noor🖤</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#050505;color:#eee;font-family:Montserrat,Arial,sans-serif}
+button{cursor:pointer}
+.ar{font-family:Amiri,serif;direction:rtl;color:#e2bd69;font-size:28px}
+
+#intro{
+position:fixed;inset:0;background:#020202;z-index:9999;
+display:flex;flex-direction:column;align-items:center;
+justify-content:center;text-align:center;transition:1s
+}
+
+.glow{
+position:absolute;width:430px;height:430px;border-radius:50%;
+background:radial-gradient(circle,rgba(218,174,75,.22),transparent 70%);
+filter:blur(8px)
+}
+
+.intro-photo{
+width:220px;height:220px;object-fit:cover;border-radius:50%;
+border:2px solid #c99a3c;
+box-shadow:0 0 70px rgba(214,170,69,.3);
+z-index:1;animation:float 4s ease-in-out infinite
+}
+
+.intro-photo+h1{
+font:600 65px 'Cormorant Garamond';
+color:#dfbd6a;margin:10px 0 0;z-index:1
+}
+
+.intro-photo~p:not(.ar){z-index:1;color:#bbb}
+
+.intro-photo-frame~button{
+z-index:1;border:1px solid #bd9141;border-radius:30px;
+background:#0b0a08;color:#e2bd69;padding:13px 22px
+}
+
+.stars{
+position:fixed;inset:0;pointer-events:none;opacity:.1;
+background-image:radial-gradient(#d8ad55 1px,transparent 1px);
+background-size:110px 110px;z-index:0
+}
+
+header{
+height:75px;position:sticky;top:0;z-index:100;
+background:rgba(3,3,3,.94);backdrop-filter:blur(12px);
+border-bottom:1px solid #3d2c13;
+display:flex;align-items:center;justify-content:space-between;
+padding:0 4%
+}
+
+.brand{
+font:italic 30px 'Cormorant Garamond';
+color:#dbb45f;text-decoration:none
+}
+
+.brand small{
+display:block;font:8px Montserrat;
+letter-spacing:2px;color:#888
+}
+
+.brand+nav{display:flex;gap:20px}
+
+.brand+nav a,nav a{
+color:#ddd;text-decoration:none;font-size:12px
+}
+
+.brand~button{
+border:1px solid #775922;border-radius:22px;
+background:#090806;color:#ddb65e;padding:9px 15px
+}
+
+.hero{
+position:relative;z-index:1;min-height:650px;
+padding:55px 5%;display:grid;
+grid-template-columns:1fr 1.25fr .85fr;
+gap:35px;align-items:center;
+background:radial-gradient(circle at 25% 45%,rgba(115,82,25,.2),transparent 30%),
+linear-gradient(110deg,#030303,#0a0907,#030303)
+}
+
+.portrait{position:relative;display:flex;justify-content:center}
+
+.portrait img{
+width:min(410px,90%);aspect-ratio:1;object-fit:cover;
+border-radius:50%;border:2px solid #cda34a;
+box-shadow:0 0 55px rgba(210,165,65,.28)
+}
+
+.orbit{
+position:absolute;width:min(455px,100%);
+aspect-ratio:1;border:1px solid rgba(210,165,65,.45);
+border-radius:50%;animation:spin 14s linear infinite
+}
+
+.orbit:after{
+content:'✦';position:absolute;right:5%;top:48%;
+color:#e3bd66;font-size:24px
+}
+
+.heroText{text-align:center}
+.heroText small{letter-spacing:4px}
+
+.heroText h1{
+font:600 clamp(65px,8vw,105px) 'Cormorant Garamond';
+line-height:.8;color:#dfbd68;margin:18px 0
+}
+
+.heroText h2{
+font:italic 30px 'Cormorant Garamond';color:#d3a7ad
+}
+
+.line{
+width:180px;height:1px;background:#b68a35;margin:20px auto
+}
+
+.heroText p:not(.ar){line-height:1.8;color:#ccc}
+
+.heroText h3{
+font:600 30px 'Cormorant Garamond';color:#e1bd69
+}
+
+aside,article{
+background:linear-gradient(145deg,#15120d,#060606);
+border:1px solid #654b20;border-radius:22px;padding:27px;
+box-shadow:inset 0 0 30px rgba(200,155,55,.03)
+}
+
+aside p:not(.ar),article p:not(.ar){
+line-height:1.8;color:#bbb
+}
+
+.gold{
+border:1px solid #bd9141;border-radius:30px;
+background:#0a0907;color:#e4c16d;padding:13px 22px
+}
+
+.section{
+position:relative;z-index:1;padding:85px 7%;background:#070707
+}
+
+.dark{background:linear-gradient(#080705,#030303)}
+
+.title{text-align:center;margin-bottom:45px}
+
+.title span{
+color:#c79b45;font-size:11px;letter-spacing:4px
+}
+
+.title h2{
+font:600 50px 'Cormorant Garamond';
+color:#e0bd69;margin:8px 0
+}
+
+.title p{color:#888}
+
+.grid3{
+display:grid;grid-template-columns:repeat(3,1fr);gap:22px
+}
+
+.grid3 article{text-align:center}
+.grid3 b{font-size:35px}
+
+.grid3 h3,.duas h3{
+font:600 27px 'Cormorant Garamond';color:#dfbd69
+}
+
+.timeline{
+display:grid;grid-template-columns:repeat(4,1fr);gap:18px
+}
+
+.timeline div{
+padding:25px;border-left:1px solid #8e692b
+}
+
+.timeline i{
+display:inline-flex;width:38px;height:38px;
+border:1px solid #b88b38;border-radius:50%;
+align-items:center;justify-content:center;
+color:#e1bd69;font-style:normal
+}
+
+.timeline h3{
+font:600 25px 'Cormorant Garamond';color:#dfbd69
+}
+
+.verse{
+text-align:center;border:1px solid #59431d;
+border-radius:18px;padding:20px;margin-top:35px
+}
+
+.gallery{
+display:grid;grid-template-columns:repeat(4,1fr);gap:14px
+}
+
+.gallery img{
+width:100%;height:240px;object-fit:cover;
+border-radius:16px;border:1px solid #654b20;
+transition:.4s
+}
+
+.gallery img:hover{transform:scale(1.04)}
+
+.section video{
+display:block;width:min(950px,100%);margin:auto;
+border:1px solid #765925;border-radius:20px
+}
+
+.caption{
+text-align:center;color:#dcb764;
+font:24px 'Cormorant Garamond'
+}
+
+.duas{
+display:grid;grid-template-columns:repeat(2,1fr);gap:22px
+}
+
+.duas article{text-align:center}
+
+.duas button{
+border:1px solid #795b25;border-radius:22px;
+background:#0b0a08;color:#ddb65e;padding:9px 16px
+}
+
+.special{
+position:relative;z-index:1;text-align:center;padding:80px 10%;
+background:radial-gradient(circle,#241c0d,#050505 60%);
+border-block:1px solid #3f2e14
+}
+
+.special h2{
+font:600 46px 'Cormorant Garamond';color:#e0bd69
+}
+
+.special p:not(.ar){
+max-width:900px;margin:15px auto;
+line-height:1.9;color:#ccc
+}
+
+.congrats{
+max-width:800px;margin:auto;text-align:center;
+border:1px solid #9b7532;border-radius:30px;
+padding:55px 30px;
+background:radial-gradient(circle,rgba(170,128,42,.12),transparent 60%)
+}
+
+.congrats>div{font-size:55px;color:#dfbd69}
+
+.congrats h3{
+font:600 40px 'Cormorant Garamond';color:#eee
+}
+
+.congrats p{color:#bbb;line-height:1.8}
+
+.congrats strong{
+color:#dcb562;font-size:24px;letter-spacing:8px
+}
+
+.social{
+display:flex;justify-content:center;gap:14px;flex-wrap:wrap
+}
+
+.social a{
+color:#ddd;text-decoration:none;border:1px solid #765a25;
+padding:14px 24px;border-radius:28px
+}
+
+.social a:hover{
+color:#e2bd69;border-color:#c69c49
+}
+
+#modal{
+display:none;position:fixed;inset:0;z-index:500;
+background:rgba(0,0,0,.82);backdrop-filter:blur(8px);
+align-items:center;justify-content:center;padding:20px
+}
+
+#modal.show{display:flex}
+
+.modalbox{
+position:relative;max-width:650px;text-align:center;
+padding:48px;background:#090807;border:1px solid #b88b38;
+border-radius:25px;box-shadow:0 0 90px rgba(210,165,65,.16)
+}
+
+.modalbox h2{
+font:600 38px 'Cormorant Garamond';color:#e0bd69
+}
+
+.modalbox p:not(.ar){
+line-height:1.9;color:#ccc
+}
+
+.close{
+position:absolute;right:15px;top:8px;
+background:none;border:0;color:#aaa;font-size:30px
+}
+
+footer{
+text-align:center;background:#020202;padding:35px;
+color:#666;border-top:1px solid #2c210f
+}
+
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes float{50%{transform:translateY(-10px)}}
+
+@media(max-width:1100px){
+header nav{display:none}
+.hero{grid-template-columns:1fr;text-align:center}
+.grid3,.timeline{grid-template-columns:1fr 1fr}
+.gallery{grid-template-columns:1fr 1fr}
+}
+
+@media(max-width:650px){
+.hero{padding:40px 5%}
+.heroText h1{font-size:70px}
+.section{padding:60px 5%}
+.title h2{font-size:40px}
+.grid3,.timeline,.gallery,.duas{grid-template-columns:1fr}
+.gallery img{height:270px}
+.brand{font-size:25px}
+.brand~button span{display:none}
+.intro-photo{width:180px;height:180px}
+.intro-photo+h1{font-size:55px}
+}
+
+.photo-picker{
+position:relative;display:flex;align-items:center;
+justify-content:center;cursor:pointer;overflow:hidden;
+background:linear-gradient(145deg,#15120d,#030303);
+border:2px solid #cda64e;color:#dcb662
+}
+
+.photo-picker span,.memory-slot span{
+position:absolute;text-align:center;padding:10px;
+font-size:12px;letter-spacing:1px;
+background:rgba(0,0,0,.72);border-radius:10px
+}
+
+.intro-photo-frame{
+width:300px;height:300px;border-radius:18px;
+z-index:1;box-shadow:0 0 70px rgba(212,169,75,.35)
+}
+
+.intro-photo-frame img{
+width:100%;height:100%;object-fit:cover
+}
+
+.hero-photo-frame{
+width:min(500px,92%);aspect-ratio:1/1;
+border-radius:22px;
+box-shadow:0 0 55px rgba(212,169,75,.28)
+}
+
+.hero-photo-frame img{
+width:100%;height:100%;object-fit:cover
+}
+
+.hero-photo-frame span{font-size:15px}
+
+.memory-slot{
+position:relative;height:240px;
+border:1px solid rgba(197,151,57,.42);
+border-radius:16px;overflow:hidden;
+display:flex;align-items:center;justify-content:center;
+background:#0b0a08;color:#dcb662;cursor:pointer
+}
+
+.memory-slot img{
+width:100%;height:100%;object-fit:cover;display:none
+}
+
+.memory-slot.has-image img{display:block}
+.memory-slot.has-image span{display:none}
+
+.video-picker{text-align:center}
+
+.video-picker video{
+display:block;margin:0 auto 20px;
+width:min(950px,100%);min-height:300px;
+background:#020202;border:1px solid #9c762e;
+border-radius:20px
+}
+
+.setup-note{
+position:relative;z-index:2;margin:18px auto 0;
+max-width:900px;padding:12px 18px;text-align:center;
+border:1px solid rgba(197,151,57,.35);
+border-radius:14px;color:#aaa;
+background:#0a0907;font-size:12px
+}
+
+@media(max-width:650px){
+.intro-photo-frame{width:260px;height:260px}
+.hero-photo-frame{width:100%}
+}
+</style>
+</head>
+
+<body>
+
+<div id="intro">
+<div class="glow"></div>
+
+<label class="photo-picker intro-photo-frame">
+<img src="Hafeeza 2.jpg" alt="Hafeeza">
+<input id="photoInput" type="file" accept="image/*" hidden>
+</label>
+
+<p class="ar">مَا شَاءَ ٱللَّهُ</p>
+<h1>Hafeeza</h1>
+<p>A Hafizah of the Holy Quran</p>
+
+<button id="enter">Enter Her Beautiful Journey ✨</button>
+</div>
+
+<div class="stars"></div>
+
+<header>
+<a class="brand" href="#home">
+Hafeeza ♛
+<small>A Hafizah of the Quran</small>
+</a>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About Hafeeza</a>
+<a href="#journey">Quran Journey</a>
+<a href="#memories">Memories</a>
+<a href="#prayers">Prayers</a>
+<a href="#videos">Videos</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<button id="sound">♫ <span>Auto Sound</span></button>
+</header>
+
+<main id="home">
+
+<section class="hero">
+
+<div class="portrait">
+<div class="orbit"></div>
+<img src="Hafeeza 3.png" alt="Hafeeza">
+</div>
+
+<div class="heroText">
+<p class="ar">ٱلْحَمْدُ لِلَّهِ</p>
+<small>PROUDLY PRESENTING ✦</small>
+<h1>Hafeeza</h1>
+<h2>A Hafizah of the Quran</h2>
+<div class="line"></div>
+
+<p>
+She has memorized the Holy Quran with dedication,
+patience, love and the help of Allah.
+</p>
+
+<h3>Big Congratulations, Hafeeza! ✨</h3>
+
+<p>
+May Allah make the Quran the light of her heart,
+her companion in this life and her intercessor in the Hereafter.
+</p>
+
+<button class="gold" onclick="surprise()">
+Open a Special Surprise 💛
+</button>
+</div>
+
+<aside>
+<h3>HER MISSION ♡</h3>
+
+<p>
+To live by the Quran, preserve its words,
+spread its light, and become a source of khair for the Ummah.
+</p>
+
+<p class="ar">رَبِّ زِدْنِي عِلْمًا</p>
+
+<small>“My Lord, increase me in knowledge.”</small>
+</aside>
+
+</section>
+
+
+<section id="about" class="section">
+
+<div class="title">
+<span>01</span>
+<h2>About Hafeeza</h2>
+<p>Her beautiful achievement deserves to be remembered.</p>
+</div>
+
+<div class="grid3">
+
+<article>
+<b>📖</b>
+<h3>Hafizah</h3>
+<p>
+She has memorized the words of Allah.
+A precious achievement and a responsibility to cherish.
+</p>
+</article>
+
+<article>
+<b>🖤</b>
+<h3>Pure Dedication</h3>
+<p>
+Every memorized verse represents patience,
+discipline, revision and sincere effort.
+</p>
+</article>
+
+<article>
+<b>✨</b>
+<h3>A Bright Future</h3>
+<p>
+May Allah make her a source of guidance,
+goodness and benefit wherever she goes.
+</p>
+</article>
+
+</div>
+</section>
+
+
+<section id="journey" class="section dark">
+
+<div class="title">
+<span>02</span>
+<h2>Her Quran Journey</h2>
+<p>From the first letter to the completion of memorization.</p>
+</div>
+
+<div class="timeline">
+
+<div>
+<i>01</i>
+<h3>The Beginning</h3>
+<p>She began her journey with the words of Allah.</p>
+</div>
+
+<div>
+<i>02</i>
+<h3>Patience & Revision</h3>
+<p>
+Day after day, she learned, revised and strengthened her memorization.
+</p>
+</div>
+
+<div>
+<i>03</i>
+<h3>Completion</h3>
+<p>
+Alhamdulillah — a beautiful milestone:
+memorizing the Holy Quran.
+</p>
+</div>
+
+<div>
+<i>04</i>
+<h3>Now & Beyond</h3>
+<p>
+The journey continues through revision,
+understanding and living by the Quran.
+</p>
+</div>
+
+</div>
+
+<div class="verse">
+<p class="ar">وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا</p>
+<p>“And recite the Quran with measured recitation.”</p>
+<small>Surah Al-Muzzammil 73:4</small>
+</div>
+
+</section>
+
+
+<section id="memories" class="section">
+
+<div class="title">
+<span>03</span>
+<h2>Beautiful Memories</h2>
+<p>Replace these four images with her real memories.</p>
+</div>
+
+<div class="gallery">
+<img src="Biotechnology.png" alt="Memory">
+<img src="Hafeeza 3.png" alt="Memory">
+<img src="Haffeza 1.jpg" alt="Memory">
+<img src="Hafeeza 2.jpg" alt="Memory">
+<img src="Hafeeza 4.png" alt="Memory">
+<img src="Khaddeja.jpeg" alt="Memory">
+<img src="Khadejah.jpg" alt="Memory"
+</div>
+
+</section>
+
+
+<section id="videos" class="section dark">
+
+<div class="title">
+<span>04</span>
+<h2>Watch Her Journey</h2>
+<p>Her special video goes here.</p>
+</div>
+
+<video controls playsinline poster="Hafeeza 4.png">
+<source src="khadija 1.mp4" type="video/mp4">
+</video>
+<video controls playsinline poster="Hafeeza 4.png">
+  <source src="khadija 2.mp4"type="video/mp4">
+</video>
+
+<p class="caption">
+Hafeeza — A Journey of Quran & Iman 🖤
+</p>
+
+</section>
+
+
+<section id="prayers" class="section">
+
+<div class="title">
+<span>05</span>
+<h2>Prayers & Blessings</h2>
+<p>May these duas follow her throughout her life.</p>
+</div>
+
+<div class="duas">
+
+<article>
+<p class="ar">
+اللَّهُمَّ اجْعَلِ الْقُرْآنَ رَبِيعَ قَلْبِهَا وَنُورَ صَدْرِهَا
+</p>
+<h3>For Hafeeza</h3>
+<p>
+O Allah, make the Quran the spring of her heart
+and the light of her chest.
+</p>
+<button onclick="surprise()">✨ Surprise Dua</button>
+</article>
+
+<article>
+<p class="ar">
+اللَّهُمَّ احْفَظْهَا وَبَارِكْ لَهَا فِي عِلْمِهَا
+</p>
+<h3>For Her Future</h3>
+<p>
+O Allah, protect her, bless her knowledge
+and make her memorization firm.
+</p>
+<button onclick="surprise()">✨ Surprise Dua</button>
+</article>
+
+<article>
+<p class="ar">
+رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا
+</p>
+<h3>For Her Mummy</h3>
+<p>
+My Lord, have mercy upon her parents
+as they raised her when she was young.
+</p>
+<button onclick="surprise()">✨ Surprise Dua</button>
+</article>
+
+<article>
+<p class="ar">
+رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ
+</p>
+<h3>For Her Family</h3>
+<p>
+Our Lord, grant us from our families comfort to our eyes
+and make us examples of righteousness.
+</p>
+<button onclick="surprise()">✨ Surprise Dua</button>
+</article>
+
+</div>
+</section>
+
+
+<section class="special">
+
+<p class="ar">
+اللَّهُمَّ تَقَبَّلْ مِنْهَا وَاجْعَلِ الْقُرْآنَ حُجَّةً لَهَا لَا عَلَيْهَا
+</p>
+
+<h2>A Special Prayer for Hafeeza</h2>
+
+<p>
+O Allah, accept this achievement from her.
+Make the Quran a proof for her, a light for her,
+and a source of peace and guidance throughout her life.
+</p>
+
+<button class="gold" onclick="surprise()">
+🎁 Reveal Another Surprise
+</button>
+
+</section>
+
+
+<section class="section">
+
+<div class="congrats">
+
+<div>☾</div>
+
+<h2 class="ar">مَا شَاءَ اللهُ</h2>
+
+<h3>CONGRATULATIONS HAFEEZA!</h3>
+
+<p>For memorizing the Holy Quran 🖤</p>
+
+<p>
+May Allah preserve it in your heart,
+increase you in knowledge, grant you understanding,
+and make you among the people of the Quran.
+</p>
+
+<strong>✦ ✧ ✦ ✧ ✦</strong>
+
+</div>
+
+</section>
+
+
+<section id="contact" class="section">
+
+<div class="title">
+<span>06</span>
+<h2>Stay Connected</h2>
+</div>
+
+<div class="social">
+<a href="+2349030308903">WhatsApp</a>
+<a href="#">Instagram</a>
+<a href="#">YouTube</a>
+<a href="#">TikTok</a>
+</div>
+
+</section>
+
+</main>
+
+
+<div id="modal">
+
+<div class="modalbox">
+
+<button class="close" onclick="closeModal()">×</button>
+
+<p id="sAr" class="ar"></p>
+<h2 id="sTitle"></h2>
+<p id="sText"></p>
+
+<span>🖤 ✨ 🖤</span>
+
+</div>
+</div>
+
+
+<!-- AUTO SOUND -->
+<audio id="music" loop preload="auto">
+<source src="Khadija.mp3" type="audio/mpeg">
+</audio>
+
+
+<footer>
+Made with love to celebrate Hafeeza's beautiful Quran journey.
+
+<p class="ar">بَارَكَ اللَّهُ فِيكِ</p>
+</footer>
+
+
+<script>
+
+const intro=document.getElementById('intro');
+const enter=document.getElementById('enter');
+const music=document.getElementById('music');
+const sound=document.getElementById('sound');
+const modal=document.getElementById('modal');
+
+
+/* =========================
+   AUTO SOUND
+   ========================= */
+
+function playMusic(){
+
+music.volume=0.35;
+
+music.play()
+.then(function(){
+
+sound.innerHTML='♫ <span>Music On</span>';
+
+})
+.catch(function(){
+
+sound.innerHTML='♫ <span>Tap for Music</span>';
+
+});
+
+}
+
+
+enter.onclick=function(){
+
+intro.style.opacity='0';
+intro.style.visibility='hidden';
+
+playMusic();
+
+};
+
+
+sound.onclick=function(){
+
+if(music.paused){
+
+playMusic();
+
+}else{
+
+music.pause();
+
+sound.innerHTML='♫ <span>Auto Sound</span>';
+
+}
+
+};
+
+
+/* =========================
+   SURPRISE MODAL
+   ========================= */
+
+const data=[
+
+[
+'A Dua Just for Hafeeza 🖤',
+'اللَّهُمَّ ثَبِّتِ الْقُرْآنَ فِي قَلْبِهَا',
+'O Allah, keep the Quran firm in her heart, make her love its recitation, and grant her strength to revise and live by it.'
+],
+
+[
+'For Her Mummy 🤍',
+'اللَّهُمَّ بَارِكْ لِوَالِدَتِهَا وَاجْزِهَا خَيْرًا',
+'O Allah, bless her mummy, reward her for every support and sacrifice, and grant her happiness through the goodness of her daughter.'
+],
+
+[
+'A Beautiful Future ✨',
+'اللَّهُمَّ زِدْهَا عِلْمًا وَإِيمَانًا',
+'O Allah, increase Hafeeza in knowledge and faith, protect her from harm, and make her a source of benefit to others.'
+],
+
+[
+'The Quran & Her Heart 📖',
+'اللَّهُمَّ اجْعَلِ الْقُرْآنَ نُورًا لَهَا',
+'O Allah, make the Quran a light for her path, peace for her heart, and a guide for every decision she makes.'
+]
+
+];
+
+
+function surprise(){
+
+let x=data[Math.floor(Math.random()*data.length)];
+
+document.getElementById('sTitle').textContent=x[0];
+document.getElementById('sAr').textContent=x[1];
+document.getElementById('sText').textContent=x[2];
+
+modal.classList.add('show');
+
+}
+
+
+function closeModal(){
+
+modal.classList.remove('show');
+
+}
+
+
+modal.onclick=function(e){
+
+if(e.target===modal){
+
+closeModal();
+
+}
+
+};
+
+
+document.onkeydown=function(e){
+
+if(e.key==='Escape'){
+
+closeModal();
+
+}
+
+};
+
+
+/* =========================
+   SCROLL ANIMATION
+   ========================= */
+
+const io=new IntersectionObserver(
+
+function(es){
+
+es.forEach(function(e){
+
+if(e.isIntersecting){
+
+e.target.style.opacity=1;
+e.target.style.transform='translateY(0)';
+
+io.unobserve(e.target);
+
+}
+
+});
+
+},
+
+{threshold:.12}
+
+);
+
+
+document.querySelectorAll(
+'article,.gallery img,.timeline div,.congrats,.special'
+).forEach(function(x){
+
+x.style.opacity=0;
+x.style.transform='translateY(24px)';
+x.style.transition='opacity .8s ease,transform .8s ease';
+
+io.observe(x);
+
+});
+
+
+/* =========================
+   PHOTO UPLOAD
+   ========================= */
+
+const photoInput=document.getElementById('photoInput');
+const introPhoto=document.getElementById('introPhoto');
+
+photoInput.addEventListener('change',function(e){
+
+const f=e.target.files[0];
+
+if(!f)return;
+
+const u=URL.createObjectURL(f);
+
+introPhoto.src=u;
+
+});
+
+
+/* =========================
+   KEEP MUSIC PLAYING
+   ========================= */
+
+music.addEventListener('play',function(){
+
+sound.innerHTML='♫ <span>Music On</span>';
+
+});
+
+
+music.addEventListener('pause',function(){
+
+sound.innerHTML='♫ <span>Auto Sound</span>';
+
+});
+
+
+/* =========================
+   KEYBOARD MUSIC CONTROL
+   ========================= */
+
+document.addEventListener('keydown',function(e){
+
+if(e.key.toLowerCase()==='m'){
+
+if(music.paused){
+
+playMusic();
+
+}else{
+
+music.pause();
+
+}
+
+}
+
+});
+
+</script>
+
+</body>
+</html>
